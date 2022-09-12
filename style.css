@@ -1,0 +1,111 @@
+
+html {
+    font-size:22px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:black;
+    opacity:0.9;
+}
+
+header {
+    max-height: 69px;
+    color:seashell;
+    background-color:black;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    margin: 0cm;
+    flex-direction: row;
+}
+
+h1 {
+    display:block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+li {
+    display: inline-block;
+    float: left;
+    padding-left: 1rem;
+    text-decoration: underline;
+    margin: 20px 15px;
+    padding: 10px 10px;
+
+}
+
+li a {
+    color: seashell;
+}
+
+li a :hover {
+    cursor: grab;
+}
+
+.logo {
+    max-height:50px;
+    margin: 0cm;
+    padding: 0cm;
+}
+
+#banner {
+    position: relative;
+    text-align: center;
+    color: seashell;
+    background-color: black;
+}
+
+#banner img {
+    max-height: 700px;
+}
+
+main {
+    align-items: center;
+    margin: auto;
+}
+
+.tea-of-the-month {
+    max-width: 1000px;
+    box-sizing: border-box;
+    align-items: center;
+    margin:auto;
+}
+
+.tea {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: absolute;
+    margin: auto;
+
+}
+
+.tea img {
+    max-width: 300px;
+    max-height: 200px;
+    align-items: center;
+    margin: auto;
+}
+
+#location {
+    max-height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*17qbkpv*_ga*MTkwMTgzNTY4LjE2NTMyMTU0MzI.*_ga_3LRZM6TM9L*MTY2Mjk2NDc2OS4xNzUuMS4xNjYyOTY1MjEzLjI4LjAuMA..");
+}
+
+.Downtown {
+    box-sizing: border-box;
+    display: flex;
+    background-color: black;
+    color: seashell;
+    background-size: cover;
+    background-position: center;
+}
